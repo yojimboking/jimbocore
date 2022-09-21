@@ -3,7 +3,7 @@ published: false
 layout: article
 category: article
 subtitle:
-date: {{date}}
+date: <% tp.date.now() %>
 tags: 
 ---
 

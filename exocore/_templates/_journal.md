@@ -3,7 +3,7 @@ published: true
 layout: journal
 category: journal
 subtitle:
-date: {{date}}
+date: <% tp.date.now() %>
 tags: 
 ---
 
