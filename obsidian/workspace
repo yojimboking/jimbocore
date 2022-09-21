@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "150da4a0f98492af",
+    "type": "split",
+    "children": [
+      {
+        "id": "644b1cb499e745ec",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "readme.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22d926cb2abf128e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d02e7500b377dc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e509f202f4abd033",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf91471a0053b065",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "{{date}}",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "edda9e9b7c04de0d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa5c2b51a2ba60c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f4884f40f957bf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ed0ef8d7e095b52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a501e8b62ac40d8b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f504780cf020cd31",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "528fa5a3a1750465",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "644b1cb499e745ec",
+  "lastOpenFiles": [
+    "index.md",
+    "_articles/Volumetric Microdosing With LSD.md",
+    "_articles/Wrist Pain Exercises.md",
+    "_articles/Using Exocore on Obsidian.md",
+    "_articles/Underpinnings of the Exocore.md",
+    "_articles/Ultimate Nootropic Protocol.md",
+    "_articles/Torrenting for Boys Automate high-speed downloading on USENET with Sonarr & Radarr onto Plex's self-hosted streaming service.md",
+    "_articles/Switch-On Diet.md",
+    "_articles/Remilia Radio.md",
+    "_articles/Ergonomic Computing.md"
+  ]
+}

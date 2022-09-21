@@ -1,0 +1,7 @@
+{
+  "userIllegalSymbols": [],
+  "ignoredFiles": {},
+  "ignoreRegex": "exocore/.*",
+  "useFileOpenHook": false,
+  "useFileSaveHook": true
+}
