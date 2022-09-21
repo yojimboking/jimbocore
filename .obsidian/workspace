@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_journal/Effective Executive - Summary.md",
+            "file": "_daily/2022-09-21.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_journal/Effective Executive - Summary.md",
+                "file": "_daily/2022-09-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_journal/Effective Executive - Summary.md",
+                "file": "_daily/2022-09-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_journal/Effective Executive - Summary.md"
+                "file": "_daily/2022-09-21.md"
               }
             }
           }
