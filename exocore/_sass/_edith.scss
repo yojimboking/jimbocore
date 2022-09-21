@@ -14,7 +14,7 @@ $color-text: white;
 $color-subtext: white;
 $color-code: pink;
 $internal-links: orange;
-$external-links: orange;
+$external-links: chocolate;
 $invalid-links: $internal-links;
 $color-primary: orange;
 $color-secondary: blue;
@@ -22,7 +22,7 @@ $color-box-shadow: none;
 
 
 /* --- Borders --- */
-$article-border: none;
+$article-border: 1px solid white;
 $sidebar-border: 1px solid white;
 $prev-next-border: none;
 $color-item-border: none;
@@ -81,7 +81,7 @@ h1 {text-transform:uppercase; text-align:center;font-weight:bold; text-decoratio
 
 h2 {text-transform:uppercase; text-align:left;font-weight:bold; font-size: 1.25em}
 
-h3 {text-transform:none;font-weight:normal; text-decoration:underline;text-align:left; margin-left:1em;}
+h3 {text-transform:none;font-weight:normal; text-decoration:underline;text-align:left;}
 
 h4 {text-transform:none;font-weight:normal; font-size:1em; text-align:left}
 }
@@ -116,16 +116,17 @@ PRE {
 ================================================== */
 
 a {
-  color: $external-links;
-  text-decoration:underline;
+  color: $internal-links;
+  text-decoration: none;
   }
     a:hover {
+    color: $internal-links;
     text-decoration: underline;
     cursor: pointer;
   }
       a.internal-link {
-    color: $external-links;
-       text-decoration:underline; 
+    color: $internal-links;
+       text-decoration:none; 
     cursor: pointer;
       }
       .notes-entry-container a.internal-link::before{
@@ -135,10 +136,15 @@ a {
   color: $invalid-links;
   cursor: help;
 }
+.web-link{
+    color:$external-links;
+}
    .web-link:hover {
        cursor: alias;
-        
     }
+.title a {
+    color: $color-text;
+}
 .sidenote a, nav a {
     font-weight: normal !important;
 }
@@ -206,7 +212,7 @@ h6:hover > a.anchor {
 ================================================== */
 
 .toc-container{
-  border: $color-item-border; 
+  border: $article-border;
   padding: 1em;
   padding-bottom: 0em;
   margin: 1em;
@@ -307,6 +313,9 @@ margin: auto;
 article {
     background-color: $background;    
     box-shadow: 1px 1px 0px $color-box-shadow;
+    @media (max-width: 900px)
+    {margin-left:0.5em;
+    }
 }
 
 
@@ -672,9 +681,10 @@ font-weight: normal;
 
 .post-date {
     padding-top: 0.5em;
+    margin-top:0.5em;
     margin-left: 0.5em;
     margin-bottom: -0.5em;
-
+    text-align:center; 
 }
 
 .library-grid-container {
@@ -742,6 +752,7 @@ font-weight: normal;
 ================================================== */
 
 .prev-next {
+    border:1px solid white;
     margin-bottom: 0.5em;
     background-color: $background;
 //    display: grid;
@@ -766,6 +777,7 @@ font-weight: normal;
 
 .title-text {
     font-size: 1.5em;
+    margin-top:0.5em;
 }
 
 .subtitle-text {
@@ -891,7 +903,7 @@ table, tr, td {
 
 // Border around the next/previous buttons above and below your posts
 .prev-next, {
-    border: $prev-next-border; 
+    border: 1px solid white; 
     box-sizing: border-box;
 
 }
