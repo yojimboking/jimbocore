@@ -141,8 +141,10 @@ a {
 }
    .web-link:hover {
        cursor: alias;
+       color:$external-links;
+       text-decoration: underline;
     }
-.title a {
+.lastest-post-border h1, .title-text a {
     color: $color-text;
 }
 .sidenote a, nav a {
@@ -354,6 +356,10 @@ article {
 
 .sidebar-card a, .related a {
     margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+sidebar-card a:hover{
+    color:$color-text;
 }
 
 .profile-pic {
@@ -456,8 +462,8 @@ article {
 
 
 .post-content blockquote {
-  padding: 1em;
   margin: 0;
+  margin-left:1em;
   font-size: 1em;
   font-family: $font-family-serif;
     font-style: italic;
