@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_articles/syntax.md",
+            "file": "_journal/Effective Executive - Summary.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_articles/syntax.md",
+                "file": "_journal/Effective Executive - Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_articles/syntax.md",
+                "file": "_journal/Effective Executive - Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_articles/syntax.md"
+                "file": "_journal/Effective Executive - Summary.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "644b1cb499e745ec",
   "lastOpenFiles": [
-    "_articles/Switch-On Diet.md",
-    "_articles/Posture Exercises.md",
-    "_articles/exocore-underpinnings.md",
-    "_articles/Ergonomic Computing.md",
-    "_articles/exocore.md",
-    "_articles/installation-instructions.md",
-    "_articles/custom-domain.md",
-    "_articles/AristoNEETs.md",
-    "_articles/Underpinnings of the Exocore.md",
-    "exocore/_templates/_daily.md"
+    "_journal/Deep Work - Summary.md",
+    "_journal/Deeds.md",
+    "_notes/Zettelkasten System.md",
+    "_notes/Zeignarik Effect.md",
+    "_notes/Stamets Stack.md",
+    "_notes/Microdosing Benefits.md",
+    "_journal/Hawaiian Shirt.md",
+    "_notes/Microdosing.md",
+    "_notes/Linking.md",
+    "_notes/Fadiman Protocol.md"
   ]
 }

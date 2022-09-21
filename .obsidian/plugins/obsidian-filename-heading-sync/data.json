@@ -1,7 +1,7 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "exocore/.*",
+  "ignoreRegex": "exocore/.*|index|readme|Gemfile|site/.*|assets/.*|exocore/.*|images/.*|library/.*|pages/.*",
   "useFileOpenHook": false,
   "useFileSaveHook": true
 }

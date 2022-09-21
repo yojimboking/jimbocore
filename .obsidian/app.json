@@ -6,5 +6,6 @@
   "livePreview": false,
   "foldIndent": false,
   "showLineNumber": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
 }
