@@ -1,9 +1,10 @@
 {
-  "attachmentFolderPath": "attachments",
+  "attachmentFolderPath": "assets/imgs",
   "newFileLocation": "current",
   "promptDelete": false,
   "spellcheck": true,
   "livePreview": false,
   "foldIndent": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showUnsupportedFiles": true
 }
