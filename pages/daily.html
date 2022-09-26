@@ -18,6 +18,7 @@ type:
         <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.articles.size }} posts</p>
         <p style=" width: 100%; text-align: center"><a href="/pages/all-daily/">View Index</a></p>
       </article>
+<br>
       {% assign items = site.daily | sort: 'date' | reverse %}
       {% for item in items %}	
 
