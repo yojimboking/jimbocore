@@ -101,6 +101,9 @@ The stack is an open-source repo and a suite of open-source programs and plugins
 - [Jekyll](https://jekyllrb.com) (for publishing)
 
 **Obsidian Plugins:**
+- Backlinks
+- Daily Notes
+- Templates
 - [Obsidian Git](https://github.com/denolehov/obsidian-git)
 - [Templater](https://github.com/SilentVoid13/Templater)
 - [Filename Heading Sync](https://github.com/dvcrn/obsidian-filename-heading-sync)
