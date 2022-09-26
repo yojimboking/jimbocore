@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "exocore/_templates/_article.md",
+            "file": "_articles/Set up a Custom Domain.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_article.md",
+                "file": "_articles/Set up a Custom Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_article.md",
+                "file": "_articles/Set up a Custom Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exocore/_templates/_article.md"
+                "file": "_articles/Set up a Custom Domain.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "644b1cb499e745ec",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
+    "_articles/Underpinnings of the Exocore.md",
+    "_articles/Using your Exocore.md",
+    "_articles/Configure Exocore for Personal Use.md",
+    "_articles/Exocore Installation Instructions.md",
+    "_daily/2022-09-26.md",
+    "exocore/_templates/_article.md",
     "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
-    "exocore/_templates/_article.md",
     "exocore/_templates/_journal.md",
-    "exocore/_templates/_daily.md",
-    "_articles/Untitled.md",
-    "_wiki/Untitled.md",
-    "readme.md",
-    "index.md",
-    "_articles/Exocore Installation Instructions.md"
+    "exocore/_templates/_daily.md"
   ]
 }

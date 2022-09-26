@@ -146,6 +146,8 @@ Remember that you still control what is actually publicly published on the publi
 2. Navigate to ```/_config.yml``` to change the Title and URL of your exocore.
 3. Navigate to ```/styles.scss``` to select between different themes.
 
+Explained in more detail at [[Configure Exocore for Personal Use]].
+
 ## Optional: Setup Mobile Editing
 
 Obsidian has a good [mobile app](https://obsidian.md/mobile) if you want to do mobile editing, but you'll either need to store your Exocore on a cloud service such as iCloud or Google Drive to get the files on your phone, or pay $10/mon for [Obsidian Sync](https://obsidian.md/sync). The exocore is entirely text so it is very lightweight, the standard cloud drive 5-15GB free tiers all have more than enough to storage unless you're hosting many PDFs or large files.
