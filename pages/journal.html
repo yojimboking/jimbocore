@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wiki Notes
+title: Journal
 date:
 type:
 
@@ -14,12 +14,12 @@ type:
 
     <div class="midcolumn">
       <article>
-        <h1 class="title-text">Latest Wiki Notes</h1>
-        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.wiki.size }} posts</p>
-        <p style=" width: 100%; text-align: center"><a href="/all-wiki/">View Index</a></p>
+        <h1 class="title-text">Latest Journal Entries</h1>
+        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.journal.size }} entries</p>
+        <p style=" width: 100%; text-align: center"><a href="/pages/all-journal/">View Index</a></p>
       </article>
 <br>
-      {% assign items = site.wiki | sort: 'date' | reverse %}
+      {% assign items = site.journal | sort: 'date' | reverse %}
       {% for item in items %}	
 
     <main>
