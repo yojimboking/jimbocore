@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "_articles/Exocore Installation Instructions.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "_articles/Exocore Installation Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "_articles/Exocore Installation Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "_articles/Exocore Installation Instructions.md"
               }
             }
           }
@@ -130,8 +130,8 @@
   },
   "active": "644b1cb499e745ec",
   "lastOpenFiles": [
-    "readme.md",
     "index.md",
+    "readme.md",
     "_articles/Using your Exocore.md",
     "_articles/exocore-underpinnings.md",
     "_articles/custom-domain.md",

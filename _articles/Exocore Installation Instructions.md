@@ -23,7 +23,7 @@ Netlify will also provide your site a custom subdomain, e.g. `[site-name].netlif
 
 All services are entirely free besides the custom domain.
 
-## 1. Deploy your own Exocore to the Web
+## Deploy your own Exocore to the Web
 
 ### Create Github Account
 
@@ -56,17 +56,17 @@ Change the default generated site name to whatever you'd like by navigating to `
 Optionally, you can find instructions for setting up a custom domain [[here|custom domain]].
 
 
-## 2. Clone your repo and set to ssh
+## Clone your repo and set to ssh
 First, download [Github Desktop](https://desktop.github.com/) if you don't already have it.
 
 Open the program and follow the instructions to sign in to your Github account then click `Current Repository` at the top left, then `Add > Clone Repository...`
 
-Now enter `git@github.com:yourusername/reponame.git` replacing your github username and repo name, e.g. `git@github.com:remiliacorp/exocore.git`, and where you want to store your exocore (if you want to edit on mobile this will need to be on a cloud drive like iCloud, see [[Using Exocore on Obsidian#4 Optional Sync with Mobile|Step 4: Sync with Mobile]])
+Now enter `git@github.com:yourusername/reponame.git` replacing your github username and repo name, e.g. `git@github.com:remiliacorp/exocore.git`, and where you want to store your exocore (if you want to edit on mobile this will need to be on a cloud drive like iCloud, see [[Exocore Installation Instructions#Optional Setup Mobile Editing|7. Setup Mobile Editing]])
 
 ![[Screen Shot 2022-09-19 at 7.06.31 PM.png]]
 
 ### Change repo to ssh
-If you've already cloned your repo before, you'll need to make sure it's set to ssh, not https. If you haven't, continue onto [[Exocore Installation Instructions#3 Setup SSH with Github|Step 3. Setup SSH with Github]]
+If you've already cloned your repo before, you'll need to make sure it's set to ssh, not https. If you haven't, continue onto [[Exocore Installation Instructions#Setup SSH with Github|4. Setup SSH with Github]]
 
 Navigate to the repo on Github Desktop, then click `Repository > Repository Settings` in the menu bar. 
 
@@ -75,7 +75,7 @@ If the `Primary remote repository (origin)` begins with `git@github.com:` you're
 eg `https://github.com/remiliacorp/exocore.git` becomes `git@github.com:remiliacorp/exocore.git`
 ![[Screen Shot 2022-09-19 at 7.04.29 PM.png]]
 
-## 3. Setup SSH with Github
+## Setup SSH with Github
 If you don't already have an SSH Key, you'll need to make one to add to Github. If you do move directly to [[Using Exocore on Obsidian#2c Add SSH Public Key to your Github|Step 2c]]. If you're not sure, you can run `ls -al ~/.ssh` in Terminal to check, if you see `id_rsa` and `id_rsa.pub` you can continue to [[Using Exocore on Obsidian#2c Add SSH Public Key to your Github|Step 2c]].
 
 ### 3a. Generate SSH Key
@@ -96,7 +96,7 @@ This creates a new SSH key, using the provided email as a label.
 `Enter passphrase (empty for no passphrase): [Type a passphrase]`
 `Enter same passphrase again: [Type passphrase again]` 
 
-### 3b. Add SSH Private Key to the ssh-agent
+### Add SSH Private Key to the ssh-agent
 
 1. Ensure the ssh-agent is running.
 `$ eval "$(ssh-agent -s)
@@ -105,7 +105,7 @@ This creates a new SSH key, using the provided email as a label.
 2. Add your SSH private key to the ssh-agent.
 `ssh-add ~/.ssh/id_rsa`
 
-### 3c. Add SSH Public Key to your Github
+### Add SSH Public Key to your Github
 
 1. Copy your SSH public key to your clipboard.
 
@@ -123,7 +123,7 @@ This creates a new SSH key, using the provided email as a label.
 ![[Pasted image 20220905145417.png]]
 
 
-## 4. Install and Setup Obsidian
+## Install and Setup Obsidian
 
 [Download Obisidian](https://obsidian.md/) on your PC.
 
@@ -140,25 +140,24 @@ Also relevant if you plan to be editing on mobile is  `Auto pull interval (minut
 Remember that you still control what is actually publicly published on the public site with the `published: true/false` tag at the top of each file.
 
 
-## 5. Configuring your Exocore
+## Configuring your Exocore
 
 1. Navigate to ```/_config.yml``` to change the Title and URL of your exocore.
 2. Navigate to ```/_data/user.yml``` to change your username and profile picture.
 3. Navigate to ```/styles.scss``` to select between different themes.
 
 
-## 6. Optional: Setup Mobile Editing
+## Optional: Setup Mobile Editing
 
 Obsidian has a good [mobile app](https://obsidian.md/mobile) if you want to do mobile editing, but you'll either need to store your Exocore on a cloud service such as iCloud or Google Drive to get the files on your phone, or pay $10/mon for [Obsidian Sync](https://obsidian.md/sync). The exocore is entirely text so it is very lightweight, the standard cloud drive 5-15GB free tiers all have more than enough to storage unless you're hosting many PDFs or large files.
 
-You'll need to download their respective apps to point Obsidian to them on your local drive on both PC and mobile. For example, with Google Drive, you just download [Drive for Desktop](https://www.google.com/intl/en_in/drive/download/) and [Drive for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en_US&gl=US)  and login and your files will be accessible on the Obsidian apps.
+You'll need to download their respective apps to point Obsidian to them on your local drive on both PC and mobile. For example, with Google Drive, you just download [Drive for Desktop](https://www.google.com/intl/en_in/drive/download/) and [Drive for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.docs&hl=en_US&gl=US) and login and your files will be accessible on the Obsidian apps.
 
 Warning: For iOS, you will *need* to use iCloud storage, Apple doesn't support other cloud storage solutions. If you're familiar with git workflows, you can also [sync with Git using Working Copy or iSH](https://forum.obsidian.md/t/mobile-setting-up-ios-git-based-syncing-with-mobile-app-using-working-copy/16499) as an alternative to iCloud.
 
+## Using your Exocore
 
-## 7. Using your Exocore
-
-Continue on to [[Using your Exocore|using-exocore|]] to familiarize yourself with the editor interface and begin writing new notes.
+Continue on to [[Using your Exocore|using-exocore]] to familiarize yourself with the editor interface and begin writing new notes.
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
 [exocore|exocortex]: exocore "Exocore Executive Summary"
