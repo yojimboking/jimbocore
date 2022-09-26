@@ -5,7 +5,7 @@ title: Home
 
 # The Exocore Package
 
-[![](/images/exocore.png)](https://remiliaexocore.netlify.app/articles/installation-instructions/)
+[![](/images/exocore.png)](/articles/installation-instructions/)
 
 ## Executive Summary
 
