@@ -1,10 +1,10 @@
-title: Exocore
+title: Edith Reisen
 
 source: .
-url: https://exocore.remilia.org
+url: https://cfang-exocore.netlify.app
 baseurl: ''
 destination: _site
-repository: remiliacorp/exocore
+repository: remiliacorp/cfang-exocore
 
 
 background: "red"
@@ -50,13 +50,13 @@ defaults:
       layout: "journal"
   - scope:
       path: ""
-      type: "wiki"
+      type: "notes"
     values: 
-      layout: "wiki"
+      layout: "note"
 
 collections:
 
-  wiki:
+  notes:
     output: true
     
   journal:
