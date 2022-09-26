@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_daily/2022-09-26.md",
+            "file": "_articles/Using Exocore on Obsidian.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2022-09-26.md",
+                "file": "_articles/Using Exocore on Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2022-09-26.md",
+                "file": "_articles/Using Exocore on Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2022-09-26.md"
+                "file": "_articles/Using Exocore on Obsidian.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "644b1cb499e745ec",
   "lastOpenFiles": [
+    "_articles/syntax.md",
+    "_articles/Using Exocore on Obsidian.md",
+    "_articles/exocore.md",
+    "_daily/2022-09-26.md",
     "_journal/Deep Work - Summary.md",
     "_journal/Deeds.md",
     "_notes/Zettelkasten System.md",
     "_notes/Zeignarik Effect.md",
     "_notes/Stamets Stack.md",
-    "_notes/Microdosing Benefits.md",
-    "_journal/Hawaiian Shirt.md",
-    "_notes/Microdosing.md",
-    "_notes/Linking.md",
-    "_notes/Fadiman Protocol.md"
+    "_notes/Microdosing Benefits.md"
   ]
 }
