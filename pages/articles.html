@@ -23,24 +23,24 @@ type:
 
     <main>
       <article class="latest-post-border">
-        <a href="{{ article.url }}">
+        <a href="{{ item.url }}">
         <div class="title">
-        <h1 class="title-text">{{article.title}}</h1> 
+        <h1 class="title-text">{{item.title}}</h1> 
         </div>
       </a>
-          {% for subtitle in article.subtitle %}
-          {% unless article.subtitle == "" %}  
+          {% for subtitle in item.subtitle %}
+          {% unless item.subtitle == "" %}  
         <div class = "subtitle">
-          <h2 class="subtitle-text">{{article.subtitle}}</h2>
+          <h2 class="subtitle-text">{{item.subtitle}}</h2>
         </div>
           {% endunless %}
           {% endfor %}
-          <div style="margin: 1em; "> <b>Date:</b> {{ article.date | date: "%-d %B %Y" }}</div>
+          <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
 
         <div class="notes-entry-container note">
           <div class="content post-content">
   
-            {{ article.content }}
+            {{ item.content }}
   
           </div>
           </div>
