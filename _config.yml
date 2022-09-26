@@ -8,7 +8,6 @@ repository: remiliacorp/exocore
 
 
 background: "red"
-
 highlighter: rouge
 
 gist:
@@ -53,6 +52,12 @@ defaults:
       type: "wiki"
     values: 
       layout: "wiki"
+  - scope:
+      path: ""
+      type: "daily"
+    values: 
+      layout: "daily"
+
 
 collections:
 
@@ -63,6 +68,9 @@ collections:
     output: true
     
   articles:
+    output: true
+
+  daily:
     output: true
     
 relative_links:
