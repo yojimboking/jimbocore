@@ -1,7 +1,7 @@
 ---
 subtitle:
 topic: Computers
-date: 4 feb 2022
+date: 2022-02-04
 tags: meta exocore
 ---
 
@@ -11,7 +11,7 @@ tags: meta exocore
 
 ## Markdown Basics
 
-The Exocore utilizes standardized Markdown syntax, along with some additional extensions. Much of the content of this article covers existing markdown syntax used universally in plain text formatting. However, some syntax, such as [[syntax#Examples of Wikilinks:|wikilinks]] and [[syntax#Inserting images|images]] are particular to the Exocore.
+The Exocore utilizes standardized Markdown syntax, along with some additional extensions. Much of the content of this article covers existing markdown syntax used universally in plain text formatting. However, some syntax, such as [[Writing with Exocore Syntax#Examples of Wikilinks:|wikilinks]] and [[Writing with Exocore Syntax#Inserting images|images]] are particular to the Exocore.
 
 * [A Simple markdown cheat sheet ](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
 * [A more comprehensive markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
@@ -30,7 +30,7 @@ Here's some advice: Only use top-level headings (preceded by `#`) for the docume
 
 ## Examples of Wikilinks:
 
-Here is a basic wikilink, pointing to other posts on this Exocore: [[exocore]].
+Here is a basic wikilink, pointing to other posts on this Exocore: [[Exocore Executive Summary]].
 
 
 
@@ -39,7 +39,7 @@ It is written as the title of their corresponding markdown file, surrounded by d
 [[chinese-ginseng-chicken-tonic-soup|You can alias a link like this]] if you don't want to keep the title. Heads up— this link points to a recipe for Chinese ginseng chicken Soup.
 
 
-[[syntax#Wikilink Embeds|This wikilink]] points to a header further down on this page, by using a `#`. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.  
+[[Writing with Exocore Syntax#Wikilink Embeds|This wikilink]] points to a header further down on this page, by using a `#`. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.  
 
 Check out the backlinks section at the bottom of any post, and you'll find a list of every post that links back to it. Backlinks are automatically generated, and display all posts with links pointing to them.
 

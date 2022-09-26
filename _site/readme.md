@@ -61,7 +61,7 @@ This system provides a powerful and highly customizable dashboard for comprehens
 
 A user downloadd the package in the form of a Github repository template, which lives on their local machine as a directory that can be manually or automatically synced via [git](https://git-scm.com) to a web domain, which represents the documents in the directory after they are processed into an eaily-navigable and feature-rich website. Their exocore can be published to the web at no-cost using Netlify's free hosting and subdomain service.
 
-A user can get by just fine only interacting with simple plaintext [markdown](https://www.markdownguide.org) files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore's syntax [[syntax|here]]). They are also able to control how their generated website handles their documents in a human-readable [[using-exocore#Using Metadata|metadata section]] at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.
+A user can get by just fine only interacting with simple plaintext [markdown](https://www.markdownguide.org) files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore's syntax [[Writing with Exocore Syntax|here]]). They are also able to control how their generated website handles their documents in a human-readable [[Using your Exocore#Using Metadata|metadata section]] at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.
 
 ![](/attachments/girl-online.png)
 
@@ -71,7 +71,7 @@ The recommended extensions for your workspace arrives as a package of two things
 
 1. A template directory including templates for simple creation of new markdown documents of different kinds (article, journal entry, wiki note, daily note), each treated differently in the rendering of your website.
 
-2. A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with [Netlify](https://www.netlify.com), for which a setup guide is available [[installation-instructions#Publishing Your Exocore|here]].
+2. A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with [Netlify](https://www.netlify.com), for which a setup guide is available [[Exocore Installation Instructions#Publishing Your Exocore|here]].
 
 ### Jekyll
 
@@ -82,9 +82,9 @@ To view your site before it is pushed online, a user can also set up their Exoco
 The stack is an open-source repo and a suite of open-source programs and plugins, and is therefore ultimately customizable. The level of customizability depends only on your technical know-how, but minimal learnings yield compounding rewards. Here is an idea of the level of control over your final website yielded by advancing levels of technical knowledge:
 
 - **No technical knowledge:**
-  - You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. In other words, all features are fully available with no technical knowledge. You should become acquainted with the Exocore's [[syntax]], but this is easy enough to guess at, or to learn in under half an hour. 
+  - You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. In other words, all features are fully available with no technical knowledge. You should become acquainted with the Exocore's [[Writing with Exocore Syntax]], but this is easy enough to guess at, or to learn in under half an hour. 
 
-    For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore [[installation-instructions#Publishing Your Exocore|documentation]] includes a guide on how to publish your site.
+    For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore [[Exocore Installation Instructions#Publishing Your Exocore|documentation]] includes a guide on how to publish your site.
   
 - **HTML and CSS**
   - You will be able to edit included stylesheets and HTML templates to create a site which looks any way that you wish. Both these languages are simple to learn, and even without learning them comprehensively a user can edit the provided templates and stylesheets to make major changes.  
