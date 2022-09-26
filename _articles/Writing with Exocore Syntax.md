@@ -36,10 +36,9 @@ Here is a basic wikilink, pointing to other posts on this Exocore: [[Exocore Exe
 
 It is written as the title of their corresponding markdown file, surrounded by double square brackets. However, in the final render they are presented by default as the page's title. This saves you typing out the whole page title in your markdown document, and allows the Foam VSCode extension to suggest files as you type. Below you can read about how to change their presentation.
 
-[[chinese-ginseng-chicken-tonic-soup|You can alias a link like this]] if you don't want to keep the title. Heads up— this link points to a recipe for Chinese ginseng chicken Soup.
+You can alias a link like this: ``[[chinese-ginseng-chicken-tonic-soup|chicken soup]]`` if you don't want to keep the title. Heads up— this link points to a recipe for Chinese ginseng chicken Soup.
 
-
-[[Writing with Exocore Syntax#Wikilink Embeds|This wikilink]] points to a header further down on this page, by using a `#`. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.  
+You can also point to headers within a page: `[[Writing with Exocore Syntax#Wikilink Embeds|This wikilink]]`. [[Writing with Exocore Syntax#Wikilink Embeds|This wikilink]] points to a header further down on this page, by using a `#`. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.  
 
 Check out the backlinks section at the bottom of any post, and you'll find a list of every post that links back to it. Backlinks are automatically generated, and display all posts with links pointing to them.
 
@@ -68,7 +67,7 @@ You can alias a hyperlink by changing the text in the square brackets, like this
 ## Applying classes to a paragraph or image
 
 {:.right-aside}
-**Oh, by the way:** You can apply the `.right-aside` class to create an aside, like this one. An aside floats to one side and other text wraps around it. `.left-aside` is also available for some variety.
+**Oh, by the way:** You can apply the `{.right-aside}` class to create an aside, like this one. An aside floats to one side and other text wraps around it. `{.left-aside}` is also available for some variety.
 
 Kramdown, the Markdown parser used by this implementation of the Exocore, has the ability to apply a CSS class to a paragraph by including syntax like `{:.classname}` at the top or bottom of a paragraph. The class will be applied to the whole paragraph. The Exocore stylesheet includes a few general classes meant to be used for just this purpose, which you should feel free to add to. 
 
@@ -76,22 +75,28 @@ Kramdown, the Markdown parser used by this implementation of the Exocore, has th
 
 **The following classes are pre-defined in the Exocore stylesheet:**
 
-- `.center` — *Reduces width of paragraph and centers it for emphasis*
+- `{.center}` — *Reduces width of paragraph and centers it for emphasis*
 
-- `.left-aside`, `.right-aside` — *Applies a border and floats to the left/right. Other text will wrap around it*
+- `{.left-aside}`, `{.right-aside}` — *Applies a border and floats to the left/right. Other text will wrap around it*
 
-- `.left`, `.right` - *Reduces width and places to the left/right (meant for images)*
+- `{.left}`, `{.right}` - *Reduces width and places to the left/right (meant for images)*
 
-- `.border` - *applies a thin black border*
+- `{.border}` - *applies a thin border*
 
-- `.shadow` - *applies a black blurred drop shadow*
+- `{.shadow}` - *applies a dark blurred drop shadow*
   
-- `.glow` - *applies a white blurred drop shadow (produces a glowing effect)*
+- `{.glow}` - *applies a bright blurred drop shadow (produces a glowing effect)*
 
-- `.flip` - *flips the image (or text) horizontally*
+- `{.flip}` - *flips the image (or text) horizontally*
   
 
 ## Tables
+```
+You | can | create a table | like this.
+A newline | in markdown | extends the table | vertically.
+A pipe | extends the table | laterally.
+```
+
 
 You | can | create a table | like this.
 A newline | in markdown | extends the table | vertically.
@@ -112,9 +117,18 @@ If you want to add multi-paragraph footnotes, indent your second paragraph, like
 
 You can put a footnote's markdown reference immediately under a paragraph, like this[^3], or clump them at the end. Either way, they will appear at the bottom in your rendered content.
 
-[^3]: This footnote appears immediately underneath it's referring paragraph in this document's original markdown, but on the rendered website it shows at the bottom. 
+[^3]: This footnote appears immediately underneath its referring paragraph in this document's original markdown, but on the rendered website it shows at the bottom. 
 
 Footnotes automatically form a numbered list, and can also be mapped by name, like this[^named-footnote]
+
+
+[^1]: This is the first footnote. Note the return button:
+
+[^2]: For longer footnotes, you may want to use multiple paragraphs.
+
+    Indent paragraphs to include them in the footnote.
+
+[^named-footnote]: This footnote has the name 'named-footnote'. it's still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown.
 
 ## Inserting images
 
@@ -123,7 +137,8 @@ To insert an image, use the following syntax:
 ```
 ![](/images/mouse.jpg)
 ```
-However, **don't bother remembering this syntax.** the easiest way to insert an image is to use the Paste Image VSCode extension, which you will be prompted to download as a recommended third-party extension of the Foam VSCode extension. For MacOS, copy your image to the clipboard, and use keyboard command `CMD + option + V`. You will be prompted to give your image file a name, and add it to the images folder in your Exocore's top-level directory. **Note:** If you CMD+C copy an image from your desktop on a mac, it is not copied to your clipboard. Instead, open the image, and then use the same keyboard command.
+
+However, **don't bother remembering this syntax.** the easiest way to insert an image is to use the Paste Image VSCode extension, included in Obsidian by default, which you will be prompted to download as a recommended third-party extension of the Foam VSCode extension. For MacOS, copy your image to the clipboard, and use keyboard command `CMD + option + V`. You will be prompted to give your image file a name, and add it to the images folder in your Exocore's top-level directory. **Note:** If you CMD+C copy an image from your desktop on a mac, it is not copied to your clipboard. Instead, open the image, and then use the same keyboard command.
 
 You can insert alt text and a caption like this:
 ```
@@ -147,13 +162,6 @@ cd ~/desktop/james-liao && bundle exec jekyll serve --baseurl ''
 
 Don't use whitespace in your filenames— instead, name-them-like-this. This way, titles are easily converted to URLs and the back end of the Exocore remains happy. This of course applies only to filenames, and you may title your posts how you wish.
 
-[^1]: This is the first footnote. Note the return button:
-
-[^2]: For longer footnotes, you may want to use multiple paragraphs.
-
-    Indent paragraphs to include them in the footnote.
-
-[^named-footnote]: This footnote has the name 'named-footnote'. it's still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown.
 
 ---
 
