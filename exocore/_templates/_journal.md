@@ -1,8 +1,8 @@
 ---
 published: true
 subtitle:
-date: 2022-09-26
+date: <% tp.date.now() %>
 tags: 
 ---
 
-# 2022-09-26
+# 

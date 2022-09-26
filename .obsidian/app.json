@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "images",
+  "attachmentFolderPath": "assets/attachments",
   "newFileLocation": "current",
   "promptDelete": false,
   "spellcheck": true,
