@@ -15,6 +15,20 @@ tags:
     <div class="archive-grid">
       
       <div class="index-card">
+        <h2 class="post-title">Articles</h2>
+        {% assign topic_sort = site.articles | sort: 'topic'%}
+        {% for article in topic_sort %}	
+          <a class="index-anchor" href="{{ article.url }}">
+            <div class="archive-item">
+             <span class="index-item-title">{{ article.title }}</span>
+             <br>
+             <span class="archive-item-date">{{ article.date | date: "%m/%d/%Y" }}</span>   
+            </div>
+                </a>
+             {% endfor %}
+      </div>
+  
+      <div class="index-card">
         <h2 class="post-title">Journal Entries</h2>
         {% assign topic_sort = site.journal | sort: 'date' | reverse %}
         {% for journal in topic_sort %}	
@@ -38,21 +52,6 @@ tags:
            <br>
            <span class="archive-item-date">{{ wiki.date | date: "%m/%d/%Y" }}</span>  
            <span style="background-color: #{{ wiki.title | remove: '-'}};" class="hex-badge"></span> 
-          </div>
-              </a>
-           {% endfor %}
-    </div>
-
-
-    <div class="index-card">
-      <h2 class="post-title">Articles</h2>
-      {% assign topic_sort = site.articles | sort: 'topic'%}
-      {% for article in topic_sort %}	
-        <a class="index-anchor" href="{{ article.url }}">
-          <div class="archive-item">
-           <span class="index-item-title">{{ article.title }}</span>
-           <br>
-           <span class="archive-item-date">{{ article.date | date: "%m/%d/%Y" }}</span>   
           </div>
               </a>
            {% endfor %}
