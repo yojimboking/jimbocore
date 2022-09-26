@@ -2,7 +2,7 @@
 date: 2022-02-28
 tags:
 ---
-# 88d821
+# usufruct
 
 # Usufruct
 

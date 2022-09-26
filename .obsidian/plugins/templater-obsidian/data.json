@@ -23,8 +23,8 @@
       "template": "exocore/_templates/_journal.md"
     },
     {
-      "folder": "_notes",
-      "template": "exocore/_templates/_note.md"
+      "folder": "_wiki",
+      "template": "exocore/_templates/_wiki.md"
     }
   ],
   "syntax_highlighting": true,

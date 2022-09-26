@@ -2,7 +2,7 @@
 date: 2022-02-28
 tags:
 ---
-# 9538b7
+# L-Dopa
 
 # Dopamine, L-dopa and Pattern Detection
 Production of neurotransmitter dopamine is stimulated by novelty, and it facilitates learning, information storage and pattern-recognition, as well as regulating emotion. Pattern-detection is important to learning, because the brain is able to compress complex raw data by identifying repetitious elements and storing information in association with the pattern, rather than making space for each node of information to be stored separately. For example, there is no need to memorize 1000 patterns of digits in order to count from 1 to 1000; the pattern is regular enough that the brain can derive each integer from a pattern it has stored, without storing each data point that the pattern produces. 

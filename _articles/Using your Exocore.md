@@ -55,7 +55,7 @@ See how your notes are connected via a graph with the Foam: Show Graph command. 
 
 ### Preview Notes
 
-Your notes can be previewed in rendered markdown by clicking the magnifying glass icon on the top right of the window. You can navigate between linked notes from within this previewed window.
+Your notes can be previewed in rendered markdown by clicking the glass icon on the top right of the window. You can navigate between linked notes from within this previewed window.
 
 ![](/images/2022-05-13-17-48-12.png)
 

@@ -50,13 +50,13 @@ defaults:
       layout: "journal"
   - scope:
       path: ""
-      type: "notes"
+      type: "wiki"
     values: 
-      layout: "note"
+      layout: "wiki"
 
 collections:
 
-  notes:
+  wiki:
     output: true
     
   journal:

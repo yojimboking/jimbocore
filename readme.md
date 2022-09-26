@@ -9,8 +9,8 @@ The exocore is a preconfigured package to roll out your own no-code, no-cost per
 
 The exocore is developed by [Remilia Corporation](https://remilia.org) as a [Jamstack](https://jamstack.org/) worfklow and extension of [Foam](https://github.com/foambubble/foam) to complete the system of an accessible and standardized autopublishing knowledgebase network, as a proof-of-concept for [Remilia's New Internet](https://mirror.xyz/charlemagnefang.eth/831rVsd2Z7cjxnBAw118gW8MylKibfC2AeJ6YUHiAvA).
 
-## How to Begin
-Follow the 15 minutes no code instructions [installation-instructions](https://remiliaexocore.netlify.app/articles/installation-instructions/) to install your exocore and set up automatic publishing with Netlify.
+## Installation Instructions
+Follow the [installation-instructions](https://exocore.netlify.app/articles/installation-instructions/) to install your exocore and set up automatic publishing with Netlify. Time required: ~30 minutes.
 
 ## Detailed Introduction
 
@@ -21,8 +21,6 @@ The exocore comprises a set of a few programs and plugins, rolling them into a p
 Its online component is a scaffolding for a website, and its offline component (fully functional without the online) is a filing system for notes, written output, or other data. Out of the box, it's a local directory of folders and interacting files forming an empty template for a [zettelkasten](https://zettelkasten.de/introduction/)/personal wiki, a platform for longform articles, a library of documents, a gallery of images, and an automatically created daily diary. Mix and match these features as you wish; they are fully modular and independent. A user would be free to use or not use any of these features, so if they want to create a self-hosted platform like Substack with no extra features, this is facilitated.
 
 In the future, these exocores can comprise a webring linked by automatically updated network pages, as well as a IRC network for which the Exocore will operate as user's personal homepages. They can also feature things like an automatically updated 'latest posts' feed from all other (or selected) Exocores, or just 'related posts' (by [metadata](https://jekyllrb.com/docs/front-matter/) tags) from your own site.
-
-
 
 
 # Breaking down the Exocore
