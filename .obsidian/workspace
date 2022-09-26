@@ -7,8 +7,12 @@
         "id": "644b1cb499e745ec",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "exocore/_templates/_article.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "exocore/_templates/_article.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "exocore/_templates/_article.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "exocore/_templates/_article.md"
+              }
             }
           }
         ]
@@ -120,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e509f202f4abd033",
+  "active": "644b1cb499e745ec",
   "lastOpenFiles": [
+    "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
+    "exocore/_templates/_article.md",
+    "exocore/_templates/_journal.md",
+    "exocore/_templates/_daily.md",
+    "_articles/Untitled.md",
+    "_wiki/Untitled.md",
     "readme.md",
     "index.md",
-    "_articles/Exocore Installation Instructions.md",
-    "_articles/Using your Exocore.md",
-    "_articles/exocore-underpinnings.md",
-    "_articles/custom-domain.md",
-    "_articles/Exocore Executive Summary.md",
-    "_articles/Writing with Exocore Syntax.md",
-    "_articles/Using Exocore on Obsidian.md"
+    "_articles/Exocore Installation Instructions.md"
   ]
 }

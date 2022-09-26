@@ -142,10 +142,9 @@ Remember that you still control what is actually publicly published on the publi
 
 ## Configuring your Exocore
 
-1.  Navigate to ```/exocore/data/user.yml``` to change your username and profile picture.
+1. Navigate to ```/exocore/data/user.yml``` to change your username and profile picture.
 2. Navigate to ```/_config.yml``` to change the Title and URL of your exocore.
 3. Navigate to ```/styles.scss``` to select between different themes.
-
 
 ## Optional: Setup Mobile Editing
 
