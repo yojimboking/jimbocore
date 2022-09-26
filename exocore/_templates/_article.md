@@ -2,7 +2,7 @@
 published: false
 topic:
 subtitle:
-date: <% tp.date.now() %>
+date: 2022-09-26
 tags: 
 ---
 

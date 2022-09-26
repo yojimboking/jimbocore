@@ -122,6 +122,7 @@
   },
   "active": "e509f202f4abd033",
   "lastOpenFiles": [
+    "exocore/_templates/_wiki.md",
     "readme.md",
     "index.md",
     "_articles/Exocore Installation Instructions.md",
@@ -130,7 +131,6 @@
     "_articles/custom-domain.md",
     "_articles/Exocore Executive Summary.md",
     "_articles/Writing with Exocore Syntax.md",
-    "_articles/Using Exocore on Obsidian.md",
-    "exocore/_templates/_article.md"
+    "_articles/Using Exocore on Obsidian.md"
   ]
 }
