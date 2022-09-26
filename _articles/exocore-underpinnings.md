@@ -1,8 +1,8 @@
 ---
-published: true
-subtitle:
-date: 2022-08-01
-tags: projects lifestyle
+subtitle: 
+topic:
+date: 2022-04-16
+tags: meta exocore computers learning
 ---
 
 # Underpinnings of the Exocore
@@ -12,9 +12,9 @@ tags: projects lifestyle
   - Easy hyperlinking = frequent hyperlinking
 - Memorability
   - Hijacking and piggybacking on existing human mnemonic faculties
-    - [[Underpinnings of the Exocore#Chernoff Faces|Chernoff Faces]] 
-    - [[Underpinnings of the Exocore#Urbit Sigils|Urbit Sigils]] 
-    - [[Underpinnings of the Exocore#Urbit Names|Urbit Names]] 
+    - [[exocore-underpinnings#Chernoff Faces|Chernoff Faces]] 
+    - [[exocore-underpinnings#Urbit Sigils|Urbit Sigils]] 
+    - [[exocore-underpinnings#Urbit Names|Urbit Names]] 
     - Spatial faculties — does an implementation exist?
   - Zettelkasten mnemonic badges
 

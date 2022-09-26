@@ -1,11 +1,10 @@
 ---
-published: true
-subtitle:
-date: 2022-08-01
-tags: projects
+date: 26 jan 2022
+tags: computers remilia
 ---
 
 # Notes on Remilia's New Internet
+
 the vision
 
 um um u um  uh hhhhhh
