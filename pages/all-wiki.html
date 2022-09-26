@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Note Index
+title: Wiki Index
 date:
 type:
 
@@ -16,8 +16,8 @@ type:
 
   <div class="midcolumn">
   <div class="index-card">
-    <p style="float: right">Showing {{ site.notes.size }} items</p>
-    <h1 class="index-title">Index of Notes (By most recent)</h1>
+    <p style="float: right">Showing {{ site.wiki.size }} items</p>
+    <h1 class="index-title">Index of Wiki Notes (By most recent)</h1>
   <div class="index-grid">
 
 
@@ -25,17 +25,17 @@ type:
   {{ topic }}
   {% endfor %}
 
-  {% assign topic_sort = site.notes | sort: 'date' | reverse %}
-  {% for note in topic_sort %}	
-    <a class="index-anchor" href="{{ note.url }}">
+  {% assign topic_sort = site.wiki | sort: 'date' | reverse %}
+  {% for wiki in topic_sort %}	
+    <a class="index-anchor" href="{{ wiki.url }}">
       <div class="index-item">
-       <span class="index-item-title">{{ note.title }}</span>
-       <span class="index-item-date" style="float: none;">{{ note.date | date: "%d %b %Y" }}</span>
-       {% if note.topic %}
-       <p class="index-item-topic">Topic: {{ note.topic }}</p>	
+       <span class="index-item-title">{{ wiki.title }}</span>
+       <span class="index-item-date" style="float: none;">{{ wiki.date | date: "%d %b %Y" }}</span>
+       {% if wiki.topic %}
+       <p class="index-item-topic">Topic: {{ wiki.topic }}</p>	
 {% endif %}
-<p class="index-item-excerpt">{{- note.excerpt | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: note.title -}} </p>
-<span style="background-color: #{{ note.title | remove: '-'}};" class="hex-badge"></span>
+<p class="index-item-excerpt">{{- wiki.excerpt | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: wiki.title -}} </p>
+<span style="background-color: #{{ wiki.title | remove: '-'}};" class="hex-badge"></span>
 
       </div>
           </a>

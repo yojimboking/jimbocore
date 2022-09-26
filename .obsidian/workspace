@@ -7,12 +7,8 @@
         "id": "644b1cb499e745ec",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "exocore/_templates/_wiki.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "exocore/_templates/_wiki.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,7 +120,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "644b1cb499e745ec",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
     "readme.md",
     "index.md",

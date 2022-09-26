@@ -30,14 +30,14 @@ tags:
 
     <div class="index-card">
       <h2 class="post-title">Wiki</h2>
-      {% assign topic_sort = site.notes | sort: 'topic'%}
-      {% for note in topic_sort %}	
-        <a class="index-anchor" href="{{ note.url }}">
+      {% assign topic_sort = site.wiki | sort: 'topic'%}
+      {% for wiki in topic_sort %}	
+        <a class="index-anchor" href="{{ wiki.url }}">
           <div class="archive-item">
-           <span class="index-item-title">{{ note.title }}</span>
+           <span class="index-item-title">{{ wiki.title }}</span>
            <br>
-           <span class="archive-item-date">{{ note.date | date: "%m/%d/%Y" }}</span>  
-           <span style="background-color: #{{ note.title | remove: '-'}};" class="hex-badge"></span> 
+           <span class="archive-item-date">{{ wiki.date | date: "%m/%d/%Y" }}</span>  
+           <span style="background-color: #{{ wiki.title | remove: '-'}};" class="hex-badge"></span> 
           </div>
               </a>
            {% endfor %}
