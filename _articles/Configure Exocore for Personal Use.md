@@ -25,6 +25,9 @@ title: home
 
 The profile picture that appears on the left sidebar is located at `assets/img/pfp.png`, you can replace this file with any .png. Note that it will be resized into a square. If you want to use a .jpg, navigate to `/exocore/data/user.yml`, open it in a text editor, and change the filename for `profile_pic:` to whatever your file is called.
 
+## Change your Social Media Card Image
+The social media card that appears when your site is linked on social media sites like Twitter, Facebook, etc. is located at `assets/img/pfp.png`, you can replace this file with any .png. Note that a dimension of 1200x800 or more is recommended. If you want to use a .jpg, navigate to `/config.yml`, open it in a text editor, and change the filename for `image:` to whatever your file is called.
+
 ## Change your Site's Title and URL 
 Navigate to ```/_config.yml``` to change the Title and URL of your exocore. All other settings can be left as is.
 

@@ -39,6 +39,10 @@ defaults:
       date: "Jan 1 2000"
   - scope:
       path: ""
+    values:
+      image: /assets/imgs/card.png
+  - scope:
+      path: ""
       type: "articles"
     values: 
       layout: "article"
