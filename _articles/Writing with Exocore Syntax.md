@@ -30,13 +30,11 @@ Here's some advice: Only use top-level headings (preceded by `#`) for the docume
 
 ## Examples of Wikilinks:
 
-Here is a basic wikilink, pointing to other posts on this Exocore: [[Exocore Executive Summary]].
-
-
+Here is a basic wikilink, pointing to other posts on this Exocore: `[[Exocore Executive Summary]]` It renders like this: [[Exocore Executive Summary]].
 
 It is written as the title of their corresponding markdown file, surrounded by double square brackets. However, in the final render they are presented by default as the page's title. This saves you typing out the whole page title in your markdown document, and allows the Foam VSCode extension to suggest files as you type. Below you can read about how to change their presentation.
 
-You can alias a link like this: ``[[chinese-ginseng-chicken-tonic-soup|chicken soup]]`` if you don't want to keep the title. Heads up— this link points to a recipe for Chinese ginseng chicken Soup.
+You can alias a link like this: ``[[chinese-ginseng-chicken-tonic-soup|this link]]`` if you don't want to keep the title. Heads up— ``[[chinese-ginseng-chicken-tonic-soup|This link]]`` points to a recipe for Chinese ginseng chicken Soup.
 
 You can also point to headers within a page: `[[Writing with Exocore Syntax#Wikilink Embeds|This wikilink]]`. [[Writing with Exocore Syntax#Wikilink Embeds|This wikilink]] points to a header further down on this page, by using a `#`. Under that header you will find a different sort of wikilink— an embed. The content of another note is embedded within the current note. You can also point to a particular header within another note.  
 
@@ -67,7 +65,7 @@ You can alias a hyperlink by changing the text in the square brackets, like this
 ## Applying classes to a paragraph or image
 
 {:.right-aside}
-**Oh, by the way:** You can apply the `{.right-aside}` class to create an aside, like this one. An aside floats to one side and other text wraps around it. `{.left-aside}` is also available for some variety.
+**Oh, by the way:** You can apply the `{:.right-aside}` class to create an aside, like this one. An aside floats to one side and other text wraps around it. `{:.left-aside}` is also available for some variety.
 
 Kramdown, the Markdown parser used by this implementation of the Exocore, has the ability to apply a CSS class to a paragraph by including syntax like `{:.classname}` at the top or bottom of a paragraph. The class will be applied to the whole paragraph. The Exocore stylesheet includes a few general classes meant to be used for just this purpose, which you should feel free to add to. 
 
@@ -75,19 +73,19 @@ Kramdown, the Markdown parser used by this implementation of the Exocore, has th
 
 **The following classes are pre-defined in the Exocore stylesheet:**
 
-- `{.center}` — *Reduces width of paragraph and centers it for emphasis*
+- `{:.center}` — *Reduces width of paragraph and centers it for emphasis*
 
-- `{.left-aside}`, `{.right-aside}` — *Applies a border and floats to the left/right. Other text will wrap around it*
+- `{:.left-aside}`, `{:.right-aside}` — *Applies a border and floats to the left/right. Other text will wrap around it*
 
-- `{.left}`, `{.right}` - *Reduces width and places to the left/right (meant for images)*
+- `{:.left}`, `{:.right}` - *Reduces width and places to the left/right (meant for images)*
 
-- `{.border}` - *applies a thin border*
+- `{:.border}` - *applies a thin border*
 
-- `{.shadow}` - *applies a dark blurred drop shadow*
+- `{:.shadow}` - *applies a dark blurred drop shadow*
   
-- `{.glow}` - *applies a bright blurred drop shadow (produces a glowing effect)*
+- `{:.glow}` - *applies a bright blurred drop shadow (produces a glowing effect)*
 
-- `{.flip}` - *flips the image (or text) horizontally*
+- `{:.flip}` - *flips the image (or text) horizontally*
   
 
 ## Tables
@@ -109,24 +107,30 @@ For more complex data representation, [Graphviz](https://graphviz.org/) can be u
 
 ## Sidenotes and Footnotes:
 
-Here's a simple footnote with no linebreaks in it.[^1] Each footnote is an anchor link to the bottom of the page, with a return link attached. Notice the sidenote in the right margin, identical to the footnote.
+Footnotes are done with `[^1]`, and look like this: [^1] Each footnote is an anchor link to the bottom of the page, with a return link attached. Notice the sidenote in the right margin, identical to the footnote.
 
 All footnotes are also rendered as sidenotes. A footnote forms a commentary or citation best kept separate from the main text, and a sidenote is an easy way for a reader to access such commentary without breaking ergonomy by jumping up and down the page.
 
 If you want to add multi-paragraph footnotes, indent your second paragraph, like this (see footnote at bottom).[^2]
 
+```[^2]: For longer footnotes, you may want to use multiple paragraphs.
+
+    Indent paragraphs to include them in the footnote.
+```
+
 You can put a footnote's markdown reference immediately under a paragraph, like this[^3], or clump them at the end. Either way, they will appear at the bottom in your rendered content.
+
+`[^3]: This footnote appears immediately underneath its referring paragraph in this document's original markdown, but on the rendered website it shows at the bottom. `
 
 [^3]: This footnote appears immediately underneath its referring paragraph in this document's original markdown, but on the rendered website it shows at the bottom. 
 
-Footnotes automatically form a numbered list, and can also be mapped by name, like this[^named-footnote]
-
+Footnotes automatically form a numbered list, and can also be mapped by name, like this: `[^named-footnote]`[^named-footnote]
 
 [^1]: This is the first footnote. Note the return button:
 
 [^2]: For longer footnotes, you may want to use multiple paragraphs.
 
-    Indent paragraphs to include them in the footnote.
+	Indent paragraphs to include them in the footnote.
 
 [^named-footnote]: This footnote has the name 'named-footnote'. it's still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown.
 
