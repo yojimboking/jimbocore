@@ -16,7 +16,7 @@ gem "rubocop", "~> 0.16", require: false
 gem "w3c_validators", "~> 1.3"
 gem "jekyll-last-modified-at"
 gem "jekyll-redirect-from"
-# gem "jekyll-feed"
+gem "jekyll-feed"
 gem "jekyll-tagging"
 gem 'jekyll-wikilinks', '0.0.11'
 gem 'ruby-graphviz'

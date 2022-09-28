@@ -1,14 +1,46 @@
+##############################
+# --- USER CONFIGURATION --- #
+##############################
+
 title: Exocore
 description: A navigable, organised hypertext personal knowledge base
-source: .
 url: https://exocore.netlify.app
-baseurl: ''
-destination: _site
 repository: remiliacorp/exocore
 
+##############################################
+# --- ANALYTICS CONFIGURATION (OPTIONAL) --- #
+##############################################
 
+jekyll_analytics:        # Uncomment desired analytics tracker and input details
+#  GoogleAnalytics:          # Uncomment section if you want to track with Google Analytics
+#    id: UA-123-456          # Required - replace with your tracking id
+#    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+#  Matomo:                   # Uncomment section if you want to track with Matomo (former Piwik Analytics)
+#    url: matomo.example.com # Required - url to Matomo installation without trailing /
+#    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+#  Piwik:                    # Uncomment section if you want to track with Piwik
+#    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+#    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+#  MPulse:                   # Uncomment section if you want to track performance with mPulse
+#    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
+
+#  Plausible:
+#    domain: 'example.com'   # The domain configured in plausible
+#    source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
+
+#################################
+# --- EXOCORE CONFIGURATION --- #
+#################################
+
+baseurl: '' 
+source: .
+destination: _site
 background: "red"
 highlighter: rouge
+permalink: /:categories/:slug/
 
 gist:
   noscript: false
@@ -27,9 +59,6 @@ layouts_dir: ./exocore/_layouts
 includes_dir: ./exocore/_includes
 plugins_dir: ./exocore/_plugins
 data_dir: ./exocore/data
-
-permalink: pretty
-
       
 defaults:
   - scope:
@@ -112,7 +141,6 @@ plugins:
 - w3c_validators
 - jekyll-last-modified-at
 - jekyll-redirect-from
-#- jekyll-feed
+- jekyll-feed
 - jekyll-wikilinks
 - ruby-graphviz
-
