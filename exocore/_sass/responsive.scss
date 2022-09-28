@@ -1,7 +1,7 @@
   // -=-=-=- RESPONSIVE CSS -=-=-=- \\
 
 body {
-    word-break: break-all;
+    overflow-wrap:break-word;
 }
 
  @media (max-width: 1350px) {
