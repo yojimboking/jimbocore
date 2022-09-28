@@ -1,5 +1,9 @@
   // -=-=-=- RESPONSIVE CSS -=-=-=- \\
 
+body {
+    word-break: break-all;
+}
+
  @media (max-width: 1350px) {
      .sidenote, {
          display: none;
