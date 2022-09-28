@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "644b1cb499e745ec",
+        "id": "7c45b8dc98202578",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_articles/Writing with Exocore Syntax.md",
+            "file": "readme.md",
             "mode": "source",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "{{date}}",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296
   },
   "right": {
     "id": "fa5c2b51a2ba60c1",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_articles/Writing with Exocore Syntax.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_articles/Writing with Exocore Syntax.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_articles/Writing with Exocore Syntax.md"
+                "file": "readme.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "644b1cb499e745ec",
+  "active": "7c45b8dc98202578",
   "lastOpenFiles": [
-    "_daily/2022-09-26.md",
-    "_articles/Underpinnings of the Exocore.md",
-    "_articles/Using your Exocore.md",
-    "_articles/Configure Exocore for Personal Use.md",
-    "_articles/Exocore Installation Instructions.md",
-    "exocore/_templates/_article.md",
-    "exocore/_templates/_scrapbook.md",
-    "exocore/_templates/_wiki.md",
-    "exocore/_templates/_journal.md",
-    "exocore/_templates/_daily.md"
+    "index.md",
+    "_journal/Exocore Feedback.md",
+    "_journal/Grip Training.md",
+    "_journal/Kariyushi Wear.md",
+    "_wiki/Female Body Training Routine.md",
+    "_articles/Metabolic Switch 3 Week Diet.md",
+    "_journal/YAYO Radio.md",
+    "_journal/Wrist Pain Exercises.md",
+    "_journal/Why is Sesame Oil the only Traditionally Consumed Seed Oil.md",
+    "_journal/Sleep Complex.md"
   ]
 }

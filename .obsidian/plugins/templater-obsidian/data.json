@@ -25,6 +25,10 @@
     {
       "folder": "_wiki",
       "template": "exocore/_templates/_wiki.md"
+    },
+    {
+      "folder": "_scrapbook",
+      "template": "exocore/_templates/_scrapbook.md"
     }
   ],
   "syntax_highlighting": true,

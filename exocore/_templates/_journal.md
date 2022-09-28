@@ -1,6 +1,6 @@
 ---
 published: true
-subtitle:
+subtitle: 
 date: <% tp.date.now() %>
 tags: 
 ---

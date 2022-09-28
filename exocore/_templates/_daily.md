@@ -1,6 +1,6 @@
 ---
 published: true
-subtitle:
+subtitle: 
 date: {{date:YYYY-MM-DD}}
 tags: 
 ---

@@ -1,10 +1,9 @@
 ---
 published: true
-topic:
-subtitle:
+author: 
+subtitle: 
 date: <% tp.date.now() %>
+source: 
 tags: 
 ---
-
-# 
 
