@@ -33,6 +33,9 @@
     .sidebar-card {
         padding: 0.5em;
     }
+    .related, .tags {
+        display: none;
+    }
     .toc-container {
         margin: auto;
         max-width: 80%;
