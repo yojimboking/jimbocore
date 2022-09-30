@@ -66,17 +66,15 @@ Now enter `git@github.com:yourusername/reponame.git` replacing your github usern
 ![[Screen Shot 2022-09-19 at 7.06.31 PM.png]]
 
 ### Change repo to ssh
-If you've already cloned your repo before, you'll need to make sure it's set to ssh, not https. If you haven't, continue onto [[Exocore Installation Instructions#Setup SSH with Github|4. Setup SSH with Github]]
+If you've already cloned your repo before, you'll need to make sure it's set to ssh, not https. If you haven't, continue onto [[Exocore Installation Instructions#Setup SSH with Github|Setup SSH with Github]]
 
 Navigate to the repo on Github Desktop, then click `Repository > Repository Settings` in the menu bar. 
 
 If the `Primary remote repository (origin)` begins with `git@github.com:` you're on ssh already and don't need to do anything. If it begins with `https://github.com/` simply replace that excerpt with `git@github.com:`.
 
 eg `https://github.com/remiliacorp/exocore.git` becomes `git@github.com:remiliacorp/exocore.git`
-![[Screen Shot 2022-09-19 at 7.04.29 PM.png]]
-
 ## Setup SSH with Github
-If you don't already have an SSH Key, you'll need to make one to add to Github. If you do move directly to [[Using Exocore on Obsidian#2c Add SSH Public Key to your Github|Step 2c]]. If you're not sure, you can run `ls -al ~/.ssh` in Terminal to check, if you see `id_rsa` and `id_rsa.pub` you can continue to [[Using Exocore on Obsidian#2c Add SSH Public Key to your Github|Step 2c]].
+If you don't already have an SSH Key, you'll need to make one to add to Github. If you do move directly to [[Using Exocore on Obsidian#Add SSH Public Key to your Github|Add SSH Public Key to your Github]]. If you're not sure, you can run `ls -al ~/.ssh` in Terminal to check, if you see `id_rsa` and `id_rsa.pub` you can continue to [[Using Exocore on Obsidian#Add SSH Public Key to your Github|Add SSH Public Key to your Github]].
 
 ### Generate SSH Key
 
@@ -172,7 +170,7 @@ Continue on to [[Using your Exocore]] to familiarize yourself with the editor in
 [Writing with Exocore Syntax|Markdown syntax]: <Writing with Exocore Syntax> "Writing with Exocore Syntax"
 [Exocore Installation Instructions#Optional Setup Mobile Editing|7. Setup Mobile Editing]: <Exocore Installation Instructions> "Exocore Installation Instructions"
 [Screen Shot 2022-09-19 at 7.06.31 PM.png]: <../assets/attachments/Screen Shot 2022-09-19 at 7.06.31 PM.png> "Screen Shot 2022-09-19 at 7.06.31 PM.png"
-[Exocore Installation Instructions#Setup SSH with Github|4. Setup SSH with Github]: <Exocore Installation Instructions> "Exocore Installation Instructions"
+[Exocore Installation Instructions#Setup SSH with Github|Setup SSH with Github]: <Exocore Installation Instructions> "Exocore Installation Instructions"
 [Pasted image 20220905145243.png]: <../assets/attachments/Pasted image 20220905145243.png> "Pasted image 20220905145243.png"
 [Pasted image 20220905145302.png]: <../assets/attachments/Pasted image 20220905145302.png> "Pasted image 20220905145302.png"
 [Pasted image 20220905145417.png]: <../assets/attachments/Pasted image 20220905145417.png> "Pasted image 20220905145417.png"
