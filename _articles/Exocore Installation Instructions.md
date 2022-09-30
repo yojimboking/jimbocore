@@ -100,10 +100,10 @@ This creates a new SSH key, using the provided email as a label.
 
 1. Ensure the ssh-agent is running.
 `$ eval "$(ssh-agent -s)"`
-You should see an output that looks something like:
+You will see an output that looks something like:
 `Agent pid XXXXX`
 
-2. Add your SSH private key to the ssh-agent.
+2. Next, add your SSH private key to the ssh-agent.
 `ssh-add ~/.ssh/id_rsa`
 
 ### Add SSH Public Key to your Github
