@@ -7,11 +7,9 @@
         "id": "7c45b8dc98202578",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "assets/imgs/eclair.png.md",
-            "mode": "source",
-            "source": true
+            "file": "assets/attachments/Pasted image 20220930180804.png"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/imgs/eclair.png.md",
+                "file": "assets/attachments/Pasted image 20220930180804.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/imgs/eclair.png.md",
+                "file": "assets/attachments/Pasted image 20220930180804.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/imgs/eclair.png.md"
+                "file": "assets/attachments/Pasted image 20220930180804.png"
               }
             }
           }
@@ -130,15 +128,15 @@
   },
   "active": "7c45b8dc98202578",
   "lastOpenFiles": [
-    "assets/imgs/card.png",
+    "assets/attachments/Screen Shot 2022-09-19 at 7.06.31 PM.png",
+    "assets/attachments/Pasted image 20220930180804.png",
+    "assets/attachments/Pasted image 20220930175410.png",
+    "assets/attachments/Pasted image 20220905145417.png",
+    "assets/attachments/Pasted image 20220905145243.png",
+    "assets/imgs/Untitled.md",
     "assets/imgs/eclair.png.md",
+    "assets/imgs/card.png",
     "assets/imgs/pfp.png",
-    "_daily/2022-09-30.md",
-    "readme.md",
-    "index.md",
-    "_journal/Exocore Feedback.md",
-    "_journal/Grip Training.md",
-    "_journal/Kariyushi Wear.md",
-    "_wiki/Female Body Training Routine.md"
+    "_daily/2022-09-30.md"
   ]
 }
