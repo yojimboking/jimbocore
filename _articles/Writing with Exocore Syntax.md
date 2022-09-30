@@ -7,8 +7,6 @@ tags: meta exocore
 
 # Writing with Exocore Syntax
 
-**`It's best to read this document with the markdown and rendered output side-by-side to see how the markdown syntax is rendered at build time.`**
-
 ## Markdown Basics
 
 The Exocore utilizes standardized Markdown syntax, along with some additional extensions. Much of the content of this article covers existing markdown syntax used universally in plain text formatting. However, some syntax, such as [[Writing with Exocore Syntax#Examples of Wikilinks:|wikilinks]] and [[Writing with Exocore Syntax#Inserting images|images]] are particular to the Exocore.
@@ -69,8 +67,6 @@ You can alias a hyperlink by changing the text in the square brackets, like this
 
 Kramdown, the Markdown parser used by this implementation of the Exocore, has the ability to apply a CSS class to a paragraph by including syntax like `{:.classname}` at the top or bottom of a paragraph. The class will be applied to the whole paragraph. The Exocore stylesheet includes a few general classes meant to be used for just this purpose, which you should feel free to add to. 
 
-
-
 **The following classes are pre-defined in the Exocore stylesheet:**
 
 - `{:.center}` — *Reduces width of paragraph and centers it for emphasis*
@@ -94,7 +90,6 @@ You | can | create a table | like this.
 A newline | in markdown | extends the table | vertically.
 A pipe | extends the table | laterally.
 ```
-
 
 You | can | create a table | like this.
 A newline | in markdown | extends the table | vertically.
@@ -155,12 +150,14 @@ The above snippet produces the below outcome:
 *Insert a caption by placing italicised text immediately underneath the image, with no empty line in between.*
 
 ## Embedded Code 
-Below are a couple of lines of code, a shell script I call when I want to serve a local render of my Exocore to see how it looks before I publish it. To embed a piece of code so that characters are rendered verbatim, surround the code snippet with ``` on either side, like so:
+To embed a piece of code so that characters are rendered verbatim, surround the code snippet with ``` on either side, like so:
 
 ```
 #!/bin/zsh
 cd ~/desktop/james-liao && bundle exec jekyll serve --baseurl ''
 ```
+
+Use just one ` to embed code in the same line as the rest of your text.
 
 ## Naming files
 
