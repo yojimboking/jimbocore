@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ring.md",
+            "file": "_articles/Using your Exocore.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ring.md",
+                "file": "_articles/Using your Exocore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ring.md",
+                "file": "_articles/Using your Exocore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ring.md"
+                "file": "_articles/Using your Exocore.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "ac102ce22034c644",
   "lastOpenFiles": [
-    "assets/attachments/Pasted image 20220930180804.png",
-    "assets/attachments/Pasted image 20220905145417.png",
-    "assets/attachments/Pasted image 20220905145243 1.png",
-    "assets/attachments/Pasted image 20220905145302.png",
-    "images/800px-Some_results_of_recent_anthropological_exploration_in_Peru_BHL23999360.jpg",
-    "images/2022-05-13-17-48-12.png",
-    "images/2022-05-13-17-46-10.png",
-    "images/2022-05-13-01-55-36.png",
+    "_articles/Writing with Exocore Syntax.md",
+    "_articles/Using your Exocore.md",
+    "_articles/Underpinnings of the Exocore.md",
+    "_articles/The Exocore Package.md",
+    "_articles/Set up a Custom Domain.md",
+    "_articles/Exocore Installation Instructions.md",
     "_articles/Configure Exocore for Personal Use.md",
-    "_articles/The Exocore Package.md"
+    "ring.md",
+    "assets/attachments/Pasted image 20220930180804.png",
+    "assets/attachments/Pasted image 20220905145417.png"
   ]
 }
