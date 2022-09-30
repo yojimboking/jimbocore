@@ -101,6 +101,7 @@ This creates a new SSH key, using the provided email as a label.
 1. Ensure the ssh-agent is running.
 
 `$ eval "$(ssh-agent -s)"`
+
 You will see an output that looks something like:
 
 `Agent pid XXXXX`
