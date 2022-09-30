@@ -99,7 +99,7 @@ This creates a new SSH key, using the provided email as a label.
 ### Add SSH Private Key to the ssh-agent
 
 1. Ensure the ssh-agent is running.
-`$ eval "$(ssh-agent -s)`
+`$ eval "$(ssh-agent -s)"`
 You should see an output that looks something like:
 `Agent pid XXXXX`
 
