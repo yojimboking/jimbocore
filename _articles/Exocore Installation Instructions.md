@@ -72,8 +72,6 @@ Navigate to the repo on Github Desktop, then click `Repository > Repository Sett
 
 If the `Primary remote repository (origin)` begins with `git@github.com:` you're on ssh already and don't need to do anything. If it begins with `https://github.com/` simply replace that excerpt with `git@github.com:`.
 
-test
-
 eg `https://github.com/remiliacorp/exocore.git` becomes `git@github.com:remiliacorp/exocore.git`
 ## Setup SSH with Github
 If you don't already have an SSH Key, you'll need to make one to add to Github. If you do move directly to [[Using Exocore on Obsidian#Add SSH Public Key to your Github|Add SSH Public Key to your Github]]. If you're not sure, you can run `ls -al ~/.ssh` in Terminal to check, if you see `id_rsa` and `id_rsa.pub` you can continue to [[Using Exocore on Obsidian#Add SSH Public Key to your Github|Add SSH Public Key to your Github]].
