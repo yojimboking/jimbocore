@@ -78,7 +78,7 @@ eg `https://github.com/remiliacorp/exocore.git` becomes `git@github.com:remiliac
 ## Setup SSH with Github
 If you don't already have an SSH Key, you'll need to make one to add to Github. If you do move directly to [[Using Exocore on Obsidian#2c Add SSH Public Key to your Github|Step 2c]]. If you're not sure, you can run `ls -al ~/.ssh` in Terminal to check, if you see `id_rsa` and `id_rsa.pub` you can continue to [[Using Exocore on Obsidian#2c Add SSH Public Key to your Github|Step 2c]].
 
-### 3a. Generate SSH Key
+### Generate SSH Key
 
 1. Open Terminal on OSX or Linux ([Git Bash](https://gitforwindows.org/) on Windows).
 
@@ -114,7 +114,9 @@ You will see an output that looks something like:
 
 1. Copy your SSH public key to your clipboard.
    
-`pbcopy < ~/.ssh/id_rsa.pub`
+OSX/Linux: `pbcopy < ~/.ssh/id_rsa.pub` 
+
+Windows (Git Bash): `cat ~/.ssh/id_rsa.pub | clip`
 
 1. Login on Github and click your profile photo, then click **Settings**.
 ![[Pasted image 20220905145243.png]]
@@ -150,7 +152,7 @@ Remember that you still control what is actually publicly published on the publi
 1. Navigate to ```/exocore/data/user.yml``` to change your username.
 2. Navigate to ```/_config.yml``` to change the Title and URL of your exocore.
 3. Change the profile picture in the sidebar by replacing `assets/img/pfp.png` with a square profile picture of your choice.
-4. 
+
 Each step explained in more detail with more personailzation options including changing themes at [[Configure Exocore for Personal Use]].
 
 ## Optional: Setup Mobile Editing
