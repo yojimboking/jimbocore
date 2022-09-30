@@ -99,20 +99,23 @@ This creates a new SSH key, using the provided email as a label.
 ### Add SSH Private Key to the ssh-agent
 
 1. Ensure the ssh-agent is running.
+
 `$ eval "$(ssh-agent -s)"`
 You will see an output that looks something like:
+
 `Agent pid XXXXX`
 
 2. Next, add your SSH private key to the ssh-agent.
+
 `ssh-add ~/.ssh/id_rsa`
 
 ### Add SSH Public Key to your Github
 
 1. Copy your SSH public key to your clipboard.
-
+   
 `pbcopy < ~/.ssh/id_rsa.pub`
 
-2. Login on Github and click your profile photo, then click **Settings**.
+1. Login on Github and click your profile photo, then click **Settings**.
 ![[Pasted image 20220905145243.png]]
 
 3.  In the "Access" section of the sidebar, click  **SSH and GPG keys**.
