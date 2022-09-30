@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_articles/Using your Exocore.md",
+            "file": "_daily/2022-09-30.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_articles/Using your Exocore.md",
+                "file": "_daily/2022-09-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_articles/Using your Exocore.md",
+                "file": "_daily/2022-09-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_articles/Using your Exocore.md"
+                "file": "_daily/2022-09-30.md"
               }
             }
           }
@@ -130,8 +130,8 @@
   },
   "active": "ac102ce22034c644",
   "lastOpenFiles": [
-    "_articles/Writing with Exocore Syntax.md",
     "_articles/Using your Exocore.md",
+    "_articles/Writing with Exocore Syntax.md",
     "_articles/Underpinnings of the Exocore.md",
     "_articles/The Exocore Package.md",
     "_articles/Set up a Custom Domain.md",
