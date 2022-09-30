@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "150da4a0f98492af",
+    "id": "2827571370e7f37b",
     "type": "split",
     "children": [
       {
-        "id": "7c45b8dc98202578",
+        "id": "96809ae6d7d67229",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_daily/2022-09-30.md",
+            "file": "Untitled 1.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "22d926cb2abf128e",
+    "id": "a5388e61c1a71c0e",
     "type": "split",
     "children": [
       {
-        "id": "1d02e7500b377dc9",
+        "id": "c58eacb78d1e8c2f",
         "type": "tabs",
         "children": [
           {
-            "id": "e509f202f4abd033",
+            "id": "21b77ed92ef1b2be",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "cf91471a0053b065",
+            "id": "74f577ece44785f8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "edda9e9b7c04de0d",
+            "id": "a2d2948084f4c473",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -61,23 +61,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 300
   },
   "right": {
-    "id": "fa5c2b51a2ba60c1",
+    "id": "eeeb3c2f6442efc3",
     "type": "split",
     "children": [
       {
-        "id": "0f4884f40f957bf2",
+        "id": "87b56d5c80c90422",
         "type": "tabs",
         "children": [
           {
-            "id": "8ed0ef8d7e095b52",
+            "id": "a2211019e6a8c192",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2022-09-30.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +89,19 @@
             }
           },
           {
-            "id": "a501e8b62ac40d8b",
+            "id": "761dbb8bf8c352f6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2022-09-30.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f504780cf020cd31",
+            "id": "7a8343eab667ee5c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "528fa5a3a1750465",
+            "id": "9f0b541c4b911d5b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2022-09-30.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -128,17 +128,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7c45b8dc98202578",
+  "active": "96809ae6d7d67229",
   "lastOpenFiles": [
-    "readme.md",
-    "index.md",
-    "_journal/Exocore Feedback.md",
-    "_journal/Grip Training.md",
-    "_journal/Kariyushi Wear.md",
-    "_wiki/Female Body Training Routine.md",
-    "_articles/Metabolic Switch 3 Week Diet.md",
-    "_journal/YAYO Radio.md",
-    "_journal/Wrist Pain Exercises.md",
-    "_journal/Why is Sesame Oil the only Traditionally Consumed Seed Oil.md"
+    "Untitled.md"
   ]
 }
