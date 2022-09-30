@@ -22,7 +22,7 @@ Use keyboard command `Ctrl + P` (`Cmd + P` on OSX) to summon the command panel. 
 - **Journal Entries** are for your thoughts, and are not automatically titled.
 - **Articles** are for longer write-ups on a particular topic.
 
-You may have noticed that these notes together create a pipeline for systematising knowledge over time from the general to the particular, and for capturing a bank of scattered reference material and developing it into a polished final product. You might choose to cite a research dump in the subsequent post that it turned into as a bibliography/further reading section, such as appears at the bottom of [[predictive-processing|this wiki note]]. 
+You may have noticed that these notes together create a pipeline for systematising knowledge over time from the general to the particular, and for capturing a bank of scattered reference material and developing it into a polished final product. You might choose to cite a research dump in the subsequent post that it turned into as a bibliography/further reading section, such as appears at the bottom of [[Predictive Processing and the Free Energy Principle|this wiki note]]. 
 
 As you develop an idea, you may see it go through each stage of note until finally culminating in a well-researched article. Notes can even be embedded in full within other notes, explained in [[Writing with Exocore Syntax]]
 
